@@ -21,3 +21,5 @@ print(type(faiz))
 
 vade=input("Lütfen istediğiniz vade sayısını giriniz:")
 print(vade)
+print(type(vade))
+print(int(vade)+12)
