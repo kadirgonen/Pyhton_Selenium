@@ -18,3 +18,6 @@ print(str(faiz))
 
 faiz=str(faiz)
 print(type(faiz))
+
+vade=input("Lütfen istediğiniz vade sayısını giriniz:")
+print(vade)
