@@ -34,3 +34,4 @@ print(vade+12)
 # Seçtiğiniz vade sonucu ortaya çıkan vade:
 vade=input("Lütfen istediğiniz vade sayısını giriniz:")
 print("Seçtiğiniz vade sonucu ortaya çıkan vade:" + vade)
+print("Seçtiğiniz vade sonucu ortaya çıkan vade: {vadeSayisi}".format(vadeSayisi=vade) )
