@@ -23,3 +23,8 @@ vade=input("Lütfen istediğiniz vade sayısını giriniz:")
 print(vade)
 print(type(vade))
 print(int(vade)+12)
+
+vade=int(input("Lütfen istediğiniz vade sayısını giriniz:"))
+print(vade)
+print(type(vade))
+print(vade+12)
