@@ -28,3 +28,9 @@ vade=int(input("Lütfen istediğiniz vade sayısını giriniz:"))
 print(vade)
 print(type(vade))
 print(vade+12)
+
+
+# string interpolation
+# Seçtiğiniz vade sonucu ortaya çıkan vade:
+vade=input("Lütfen istediğiniz vade sayısını giriniz:")
+print("Seçtiğiniz vade sonucu ortaya çıkan vade:" + vade)
