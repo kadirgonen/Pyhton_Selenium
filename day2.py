@@ -15,3 +15,6 @@ krediAdi= "İhtiyaç Kredisi"
 print(int(vade)+12)
 #print(int(krediAdi))
 print(str(faiz))
+
+faiz=str(faiz)
+print(type(faiz))
