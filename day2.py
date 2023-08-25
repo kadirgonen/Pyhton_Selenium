@@ -69,3 +69,11 @@ print(krediler)
 
 krediler.pop()
 print(krediler)
+
+krediler.pop(0)
+print(krediler)
+
+krediler.append("Taşıt Kredisi")
+print(krediler)
+krediler.remove("Taşıt Kredisi")
+print(krediler)
