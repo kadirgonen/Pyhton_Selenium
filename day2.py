@@ -63,3 +63,9 @@ print(len(krediler)) #length
 
 krediler.append("Özel Kredi")
 print(krediler)
+
+krediler.append("X Kredisi")
+print(krediler)
+
+krediler.pop()
+print(krediler)
