@@ -75,5 +75,9 @@ print(krediler)
 
 krediler.append("Taşıt Kredisi")
 print(krediler)
+
 krediler.remove("Taşıt Kredisi")
+print(krediler)
+
+krediler.extend(["Y Kredisi","Z Kredisi"])
 print(krediler)
