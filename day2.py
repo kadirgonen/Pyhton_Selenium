@@ -35,3 +35,7 @@ print(vade+12)
 vade=input("Lütfen istediğiniz vade sayısını giriniz:")
 print("Seçtiğiniz vade sonucu ortaya çıkan vade:" + vade)
 print("Seçtiğiniz vade sonucu ortaya çıkan vade: {vadeSayisi}".format(vadeSayisi=vade) )
+
+isim= "Halit"
+metin= "Merhaba {name}".format(name=isim)
+print(metin)
