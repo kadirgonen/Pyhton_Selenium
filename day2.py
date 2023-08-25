@@ -43,3 +43,12 @@ print(metin)
 #f-string
 metin= f"Hoşgeldiniz {1+1}"
 print(metin)
+
+
+#listeler
+#döngüler
+#fonksiyonlar
+
+krediler= ["İhtiyaç Kredisi", "Taşıt Kredisi", "Konut Kredisi"]
+print(type(krediler))
+print(krediler)
