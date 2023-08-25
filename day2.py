@@ -81,3 +81,24 @@ print(krediler)
 
 krediler.extend(["Y Kredisi","Z Kredisi"])
 print(krediler)
+
+#for
+#i=0 i<0
+
+for i in range(10):
+    print("xx")
+    print(i)
+print("*************")
+for i in range(5,11):
+    print(i)
+print("*************")
+for i in range(0,51,10):
+    print(i)
+
+
+krediler= ["İhtiyaç Kredisi", "Taşıt Kredisi", "Konut Kredisi"]
+for kredi in krediler:
+   print(kredi)
+print("*************")
+for i in range(3):
+    print(krediler[i])
