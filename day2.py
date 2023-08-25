@@ -39,3 +39,6 @@ print("Seçtiğiniz vade sonucu ortaya çıkan vade: {vadeSayisi}".format(vadeSa
 isim= "Halit"
 metin= "Merhaba {name}".format(name=isim)
 print(metin)
+
+#f-string
+metin= f"Hoşgeldiniz {isim}"
