@@ -41,4 +41,5 @@ metin= "Merhaba {name}".format(name=isim)
 print(metin)
 
 #f-string
-metin= f"Hoşgeldiniz {isim}"
+metin= f"Hoşgeldiniz {1+1}"
+print(metin)
