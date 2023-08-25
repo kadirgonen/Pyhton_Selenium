@@ -49,6 +49,17 @@ print(metin)
 #döngüler
 #fonksiyonlar
 
+dizi= ["İhtiyaç Kredisi", 10, 5.2, True]
+print(dizi)
+
 krediler= ["İhtiyaç Kredisi", "Taşıt Kredisi", "Konut Kredisi"]
 print(type(krediler))
+
+print(krediler)
+print(krediler[0])
+
+print(len(krediler)) #length
+#print(krediler[3]) => hata verir
+
+krediler.append("Özel Kredi")
 print(krediler)
