@@ -105,5 +105,9 @@ for i in range(3):
 print("*************")
 
 
-while True:
+#sonsuz döngü
+i = 0
+while i < 10:
     print("x")
+    i += 1
+print("y")
