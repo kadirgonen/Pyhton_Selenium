@@ -102,3 +102,8 @@ for kredi in krediler:
 print("*************")
 for i in range(3):
     print(krediler[i])
+print("*************")
+
+
+while True:
+    print("x")
