@@ -111,3 +111,15 @@ while i < 10:
     print("x")
     i += 1
 print("y")
+
+print("*************")
+
+while True:
+    print("X")
+    break
+
+print("*************")
+
+i=0
+while i < len(krediler):
+    print(krediler[i])
