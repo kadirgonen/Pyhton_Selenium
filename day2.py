@@ -133,3 +133,15 @@ while i < len(krediler):
         break
     print(krediler[i])
     i+=1
+
+print("*** Son Döngü ***")
+
+
+krediler= ["İhtiyaç Kredisi", "Taşıt Kredisi", "Konut Kredisi"]
+i = 0
+while i < len(krediler):
+    i+=1
+    print(i)
+    print(krediler[i])
+    if krediler[i] == "Konut Kredisi" :
+        break
