@@ -123,3 +123,13 @@ print("*************")
 i=0
 while i < len(krediler):
     print(krediler[i])
+    i+=1
+
+print("*************")
+
+i=0
+while i < len(krediler):
+    if krediler[i] == "Konut Kredisi" :
+        break
+    print(krediler[i])
+    i+=1
