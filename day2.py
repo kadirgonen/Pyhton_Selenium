@@ -145,3 +145,20 @@ while i < len(krediler):
     print(krediler[i])
     if krediler[i] == "Konut Kredisi" :
         break
+
+
+#fonksiyonlar
+
+
+fiyat = 100 
+indirim =20
+#definition define
+def calculate():
+    print(100-20)
+
+def calculateWithParams(fiyat,indirim):
+    print(fiyat-indirim)
+
+calculate()
+calculateWithParams(50,10)
+calculateWithParams(100,30)
