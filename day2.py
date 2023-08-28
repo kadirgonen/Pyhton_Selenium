@@ -159,6 +159,34 @@ def calculate():
 def calculateWithParams(fiyat,indirim):
     print(fiyat-indirim)
 
+def sayHello(name):
+    print(f"Merhaba {name}")
+
+
 calculate()
 calculateWithParams(50,10)
 calculateWithParams(100,30)
+sayHello("Halit")
+sayHello("Arif")
+sayHello("Mevlüt")
+
+
+def calculateAndReturn(price, discount):
+    return price-discount
+
+yeniFiyat = calculateAndReturn(200, 50)
+print(yeniFiyat)
+
+
+def calculatePrice(price, discount):
+    print(price-discount)
+
+def calculatePriceAndReturn(price, discount):
+    return price-discount
+
+print("*************")
+fonk1 = calculatePrice(100, 50)
+fonk2 = calculatePrice(300, 100)
+print(fonk1)
+print(fonk2)
+print("**************")
