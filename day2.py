@@ -177,7 +177,7 @@ def calculateAndReturn(price, discount):
 yeniFiyat = calculateAndReturn(200, 50)
 print(yeniFiyat)
 
-
+#void
 def calculatePrice(price, discount):
     print(price-discount)
 
@@ -189,4 +189,9 @@ fonk1 = calculatePrice(100, 50)
 fonk2 = calculatePrice(300, 100)
 print(fonk1)
 print(fonk2)
+print("**************")
+fonk1 = calculatePrice(100, 50)
+fonk2 = calculatePriceAndReturn(300, 100)
+print(f"159. satır: {fonk1}")
+print(f"160. satır: {fonk2}")
 print("**************")
