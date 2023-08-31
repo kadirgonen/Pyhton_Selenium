@@ -76,3 +76,29 @@ human2= Human()
 human2.name = "Cem"
 human2.talk("Merhaba")
 human2.walk()
+
+print("**************")
+
+class Human:
+    name = "Halit"
+    #built-in
+    #constructor
+    #initialize
+    def __init__(self) :
+        print("Bir human instance'i üretildi")
+    def talk(self,sentence):
+        name= "Ercan"
+        print(f"{self.name}: {sentence}")
+    def walk(self):
+        print("Human is walking..")
+
+#instance => örnek
+human1= Human()
+human1.name ="Enes"
+human1.talk("Merhaba")
+human1.walk()
+
+human2= Human()
+human2.name = "Cem"
+human2.talk("Merhaba")
+human2.walk()
