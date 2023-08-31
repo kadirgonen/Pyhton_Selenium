@@ -74,7 +74,7 @@ human1.walk()
 
 human2= Human()
 human2.name = "Cem"
-human2.talk("Merhaba")
+human2.talk("Selam")
 human2.walk()
 
 print("**************")
@@ -97,8 +97,9 @@ human1= Human()
 human1.name ="Enes"
 human1.talk("Merhaba")
 human1.walk()
+print(human1)
 
 human2= Human()
-human2.name = "Cem"
-human2.talk("Merhaba")
+human2.talk("Selam")
 human2.walk()
+print(human2)
