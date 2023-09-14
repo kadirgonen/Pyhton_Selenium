@@ -8,9 +8,12 @@ options = Options()
 # İstediğiniz seçenekleri burada ayarlayabilirsiniz, örneğin:
 # options.add_argument("--headless")
 
-##driver= webdriver.Chrome(ChromeDriverManager().install(), options=options)
-driver_path = ChromeDriverManager().install()  # ChromeDriver'ı indirip yükler
-driver = webdriver.Chrome(executable_path=driver_path, options=options)
+# ChromeDriver'ı yönetmek için bir hizmet (service) oluşturun
+chrome_service = ChromeService(ChromeDriverManager().install())
+
+# WebDriver'ı başlatın ve hizmeti ve seçenekleri ileterek kullanın
+driver = webdriver.Chrome(service=chrome_service, options=options)
+
 driver.maximize_window()
 driver.get("https://www.google.com/")
 #sleep(10)
